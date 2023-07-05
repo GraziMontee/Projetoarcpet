@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="stylecarrinho.css">
+  
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <title>Homem Ferro | Loja</title>
+  </head>
+  <body onload="ver()">
+    <header>
+        <span>Carrinho de compras do <b>arcPet</b></span>
+        <img class="imagem" src="img/WhatsApp_Image_2023-02-22_at_13.57.35-removebg-preview.png">
+      </header>
+    <main class="main-section">
+
+      <section class="container normal-section">
+        <h2 class="section-title">Carrinho</h2>
+
+        <table class="cart-table">
+          <thead>
+            <tr>
+              <th class="table-head-item first-col">Titulo</th>
+              <th class="table-head-item second-col">Preço</th>
+              <th class="table-head-item third-col">Quantidade</th>
+            </tr>
+          </thead>
+           
+          <tbody>
+
+
+            <tr class="cart-product">
+              <td class="product-identification">
+                <img src="" alt=""   class="cart-product-image" id="info-img">
+                <strong class="cart-product-title" id="info-name"></strong>
+              </td>
+              <td>
+                <span class="cart-product-price" id="info-preço"></span>
+              </td>
+              <td>
+                <input type="number" value="1" min="1" class="product-qtd-input">
+                <button type="button" class="remove-product-button" onclick="remove()" >Remover</button>
+              </td>
+            </tr>
+
+          
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td colspan="3" class="cart-total-container">
+                <strong>Total</strong>
+                <span id="valor-total">R$0,00</span>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+
+        <button type="button" class="purchase-button">Finalizar Compra</button>
+      </section>
+    </main>
+    <footer>
+        <ul class="social-icon">
+           <a href="https://www.instagram.com/arcpet5/?next=%2F"><i class='bx bxl-facebook-circle' style="color:#ec790e;"></i></a>
+           <a href="https://www.instagram.com/arcpet5/?next=%2F"><i class='bx bxl-twitter'style="color:#ec790e;" ></i></a>
+           <a href="https://www.instagram.com/arcpet5/?next=%2F"><i class='bx bxl-instagram-alt'style="color:#ec790e;" ></i></a>
+        </ul>
+        <ul class="menu">
+           <li>Home</li>
+           <li>About</li>
+           <li>Services</li>
+           <li>Team</li>
+           <li>Contact</li>
+        </ul>
+
+        <div class="card-baixo">
+           <a class="topo" href="index.html">TOPO</a>
+           <h2>ARCPET</h2>
+           <p>©️2023 copyright / all arcpet</p>
+        </div>
+    </footer>
+  </body>
+  <script async src="loja - Copia.js"></script>
+</html>

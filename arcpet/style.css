@@ -1,0 +1,3375 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Creepster&family=Rakkas&family=Rubik+Gemstones&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Josefin+Sans:ital,wght@1,300&family=Oswald:wght@700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    margin-top: 0%;
+    width: 100%;
+
+}
+header{
+    background-color:#b2cbae;
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    margin-top: 1px;
+}
+.contato{
+    margin-top: 7PX;
+    margin-left: 7%;
+    position: absolute;
+    font-size: 10px;
+    background-color: #b2cbae;
+    border: 0;
+    width: 15%;
+    height: 80%;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    color:#FFFFFF;    
+    font-family: 'Oswald', sans-serif;
+    transform: 2ms ease-in;
+}
+
+.contato:hover{
+    background-color: #da67093a;
+}
+#whats{
+    position: absolute;
+    margin-top: 0.3%;
+    margin-left: 8%;
+    font-size: 130%;
+}
+.horario{
+    margin-top: 7px;
+    margin-left: 22%;
+    position: absolute;
+    font-size: 10px;
+    background-color: #b2cbae;
+    border: 0;
+    width: 15%;
+    height: 80%;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    color:#FFFFFF;
+    font-family: 'Oswald', sans-serif;
+    transform: 2ms ease-in;
+}
+.horario:hover{
+    background-color: #da67093a;
+} 
+#relogio{
+    position: absolute;
+    margin-top: 0.4%;
+    margin-left: 23%;
+    font-size: 120%;
+}
+.nome{
+    margin-top: 7px;
+    margin-left: 38%;
+    position: absolute;
+    font-size: 10px;
+    background-color: #b2cbae;
+    border: 0;
+    width: 15%;
+    height: 80%;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    color:#FFFFFF;
+    font-family: 'Oswald', sans-serif;
+    transform: 2ms ease-in;
+}
+.nome:hover{
+    background-color: #da67093a;
+}
+.iconeloja{
+    position: absolute;
+    margin-top: 0.4%;
+    margin-left: 38%;
+    width: 15px;
+    height: auto;
+}
+.conta button{
+  position: absolute;
+  margin-left: 85%;
+  margin-top: 0.3%;
+  height: 60%;
+  width: 8%;
+  letter-spacing: 0.1rem;
+  color: #ffffffc6;
+  background: #da6709;
+  border: #da6709;
+  font-family: 'Oswald', sans-serif;
+ 
+}
+#user{
+    position: absolute;
+    margin-left: 95.5%;
+    margin-top: 0.4%;
+    font-size: 140%;
+}
+.list-menu{
+    position: absolute;
+    display: flex;
+    margin-top: 3%;
+    list-style: none;
+    margin-left: 130px;
+    gap: 90px;
+    font-size: 110%;
+    font-family: cursive;
+
+}
+.list-menu a{
+    text-decoration: none;
+    color: #4c705b;
+    padding: 0.5rem;
+    transform: 2ms ease-in;
+    position: relative;
+}
+.list-menu a:before {
+    content: ' ';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width:0px;
+    height: 1px;
+    background-color:#da6709;
+    transition: all 1.5s ease; 
+}
+.list-menu a:hover:before {
+    width: 100%;
+}
+
+.logo{
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1%;
+    height: 130px;
+    width: auto;
+}
+.hr11{
+    position: absolute;
+    margin-top: 100px;
+    width: 99.8%;
+    height: 2px;
+    color: #b2cbae;
+}
+#entrar{
+    position: absolute;
+    text-align:center;
+    margin-top: 40px;
+    margin-left: 85%;
+    font-size: 80%;
+    font-family: 'Oswald', sans-serif;
+    background-color:#c9c9c921;
+    letter-spacing: 0.1rem;
+    height: 6%;
+    width: 10%;
+    border-color:#3f977388 ;
+    border-radius: 20px;
+}
+#entrar a{
+    text-decoration: none;
+    color: #4c705b;
+}
+#entrar:hover {
+    color: #ffffff;
+    border: none;
+    background-color:#da670983;
+  }
+.mySlides{
+    position: absolute;
+    margin-top: 105px;
+    margin-left:0% ;
+    height:65%;
+    width: 100%;
+}
+
+.textt{
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 40%;
+    font-size:180% ;
+    color: #da6709;
+    animation: float 1.8s infinite alternate; 
+}
+.example p{
+    position: absolute;
+    margin-top: 43%;
+    margin-left: 36%; 
+    font-size: 80%;
+    letter-spacing: 0.06rem;
+    line-height: 160%;
+    opacity: .5;
+    font-family: 'Mynerve', cursive;
+}
+.adestraçao{
+    position: absolute;
+    margin-top: 46%;
+    margin-left: 31%;
+    font-size:100% ;
+    color: #78aa8c;
+}
+.example p2{
+    position: absolute;
+    margin-top: 47%;
+    margin-left: 24%; 
+    font-size: 70%;
+    letter-spacing: 0.01rem;
+    line-height: 180%;
+    opacity: .7;
+    font-family: 'Mynerve', cursive;
+}
+.passeio{
+    position: absolute;
+    margin-top: 53%;
+    margin-left: 33%;
+    font-size:100% ;
+    color: #78aa8c;
+}
+.example p3{
+    position: absolute;
+    margin-top: 54%;
+    margin-left: 25%; 
+    font-size: 70%;
+    letter-spacing: 0.01rem;
+    line-height: 180%;
+    opacity: .7;
+    font-family: 'Mynerve', cursive;
+}
+.tosa{
+    position: absolute;
+    margin-top: 46%;
+    margin-left: 65%;
+    font-size:100% ;
+    color: #78aa8c;
+}
+.example p4{
+    position: absolute;
+    margin-top: 47%;
+    margin-left: 65%; 
+    font-size: 70%;
+    letter-spacing: 0.01rem;
+    line-height: 180%;
+    opacity: .7;
+    font-family: 'Mynerve', cursive;
+}
+
+.veterinario{
+    position: absolute;
+    margin-top: 53%;
+    margin-left: 65%;
+    font-size:100% ;
+    color: #78aa8c;
+}
+
+.example p5{
+    position: absolute;
+    margin-top: 54%;
+    margin-left: 65%; 
+    font-size: 70%;
+    letter-spacing: 0.01rem;
+    line-height: 180%;
+    opacity: .7;
+    font-family: 'Mynerve', cursive;
+}
+  .hr5{
+    position: absolute;
+    width: 9%;
+    height: 20%;
+    margin-top: 50%;
+    margin-left:0%;
+    border-radius: 70%;
+    color: #da6709;
+    background-color: #da6709;
+  }
+.adestraçaofoto{
+    position: absolute;
+    height: auto;
+    width: 12%;
+    margin-top: 50%;
+}
+.hr6{
+    position: absolute;
+    width: 9%;
+    height: 20%;
+    margin-top: 51%;
+    margin-left:85%;
+    border-radius: 70%;
+    color: #b2cbae;
+    background-color:#b2cbae;
+   
+  }
+.vetefoto{
+    position: absolute;
+    height: auto;
+    width: 15%;
+    margin-top: 53%;
+    border-radius: 50%;
+    margin-left: 79%;
+}
+.banhofoto{
+    position: absolute;
+    height:auto;
+    width: 18%;
+    margin-top: 46%;
+    margin-left: 41%;
+}
+.hr7{
+    position: absolute;
+    width: 3%;
+    height: 6%;
+    margin-top: 46.5%;
+    margin-left: 38%;
+    border-radius: 70%;
+    border: 0;
+    background:#b2cbae;
+  }
+  .iconeades{
+    position: absolute;
+    margin-top: 47%;
+    margin-left: 37.8%;
+    width: 1.7%;
+    height: auto;
+  }
+  .hr8{
+    position: absolute;
+    width: 3%;
+    height: 6%;
+    margin-top: 53%;
+    margin-left: 38%;
+    border: 0;
+    border-radius: 70%;
+    background: #b2cbae;
+  }
+  .iconepasseio{
+    position: absolute;
+    margin-top: 53.5%;
+    margin-left: 37.8%;
+    width: 1.7%;
+    height: auto;
+  }
+  .hr9{
+    position: absolute;
+    width: 3%;
+    height: 6%;
+    margin-top: 47%;
+    margin-left: 61%;
+    border-radius: 70%;
+    border: 0;
+    background:#b2cbae;
+  }
+  .iconebanho{
+    position: absolute;
+    margin-top: 47.3%;
+    margin-left: 60.8%;
+    width: 1.7%;
+    height: auto;
+  }
+  .hr10{
+    position: absolute;
+    width: 3%;
+    height: 6%;
+    margin-top: 53%;
+    margin-left: 61%;
+    border-radius: 70%;
+    border: 0;
+    background: #b2cbae;
+  }
+  .iconevet{
+    position: absolute;
+    margin-top: 53.5%;
+    margin-left: 60.8%;
+    width: 1.7%;
+    height: auto;
+  }
+.promoçao{
+    position: absolute;
+    text-align: center;
+    margin-top: 63%;
+    margin-left: 0%;
+    letter-spacing: 0.3rem;
+    color:#FFFFFF;
+    opacity: .9 ;
+    background-color: #da6709;
+    box-shadow: 2px 5px 15px #76877d;                                                                                                                                                                                                                                                                                                                                                        
+    height: 50px;
+    width: 100%;
+    font-family:  'Rakkas', cursive;
+    
+}
+.card1{
+    position: absolute;
+    background-color:#78aa8c ;
+    display: inline-flex;
+    margin-top: 70%;
+    margin-left: 4%;
+    border-radius: 20px;
+    width: 20%;
+    height: 27%;
+    transition: 0.5s;
+    animation: float 1.8s infinite alternate;
+}
+.card1 h1{
+    position: absolute;
+    margin-left: 5%;
+    color: #fff;
+    text-shadow: 1px 1px 10px #ec790e;
+    font-family: 'Rubik Gemstones', cursive;
+    font-size: 190%;
+}
+.card1 p{
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 8%;
+    font-size: 130%;
+    color: #fff;
+    font-family: 'Mynerve', cursive;
+}
+.card1 p2{
+    position: absolute;
+    margin-top: 32%;
+    margin-left: 8%;
+    color: #fff;
+    text-shadow: 1px 1px 10px #ec790e;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:180%;
+}
+.card1 a{
+    position: absolute;
+    margin-top: 47%;
+    margin-left: 30%;
+    padding: 10px;
+    text-decoration: none;
+    border-radius:5px;
+    background-color:#ffffff;
+    width: 30%;
+    height: 10%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    text-align: center;
+    transition: 0.5s;
+    outline: none;
+    color: #da6709;
+}
+.imgs{
+    position: absolute;
+    width: 60%;
+    height: auto;
+    margin-left: 55%;
+    margin-top: 5%;
+}
+.card1 p3{
+    display: none;
+    position: absolute;
+    margin-top: 49%;
+    margin-left: 76.5%;
+    font-size: 70%;
+    color:#fff;
+    opacity: .7;
+    font-family: 'Mynerve', cursive;
+}
+.card1:hover {
+    background-color: #da6709;
+    color: white;
+    top: -70px;
+    box-shadow: 2px 20px 25px #dc2e685d;
+    border-color: #dc2e69;
+    
+  }
+  
+  .card1:hover imgshamp {
+    filter: invert(1);
+  }
+  
+.card1:hover p {
+    color: white;
+  }
+  .card1:hover p2 {
+    color: white;
+    text-shadow: 1px 1px 10px #b2cbae;
+  }
+  
+.card1:hover a {
+    color: #78aa8c;
+    background-color: white;
+   
+  }
+  .card2{
+    position: absolute;
+    background-color:#78aa8c ;
+    display: inline-flex;
+    margin-top: 70%;
+    margin-left: 28%;
+    border-radius: 20px;
+    width: 20%;
+    height: 27%;
+    transition: 0.5s;
+    animation: float 1.8s infinite alternate;
+}
+.card2 h1{
+    position: absolute;
+    margin-left: 5%;
+    color: #fff;
+    text-shadow: 1px 1px 10px #ec790e;
+    font-family: 'Rubik Gemstones', cursive;
+    font-size: 190%;
+}
+.card2 p{
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 8%;
+    font-size: 130%;
+    color: #fff;
+    font-family: 'Mynerve', cursive;
+}
+.card2 p2{
+    position: absolute;
+    margin-top: 32%;
+    margin-left: 8%;
+    color: #fff;
+    text-shadow: 1px 1px 10px #ec790e;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:180%;
+}
+.card2 a{
+    position: absolute;
+    margin-top: 47%;
+    margin-left: 30%;
+    padding: 10px;
+    text-decoration: none;
+    border-radius:5px;
+    background-color:#ffffff;
+    width: 30%;
+    height: 10%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    text-align: center;
+    transition: 0.5s;
+    outline: none;
+    color: #da6709;
+}
+.imgspromo{
+    position: absolute;
+    width: 60%;
+    height: auto;
+    margin-left: 42%;
+    margin-top: 13%;
+}
+.card2 p3{
+    display: none;
+    position: absolute;
+    margin-top: 43%;
+    margin-left: 65%;
+    font-size: 70%;
+    color: #ffffff;
+    opacity: .7;
+    font-family: 'Mynerve', cursive;
+}
+.card2:hover {
+    background-color: #da6709;
+    color: white;
+    top: -70px;
+    box-shadow: 2px 20px 25px #dc2e685d;
+    border-color: #dc2e69;
+  }
+  
+  .card2:hover imgshamp {
+    filter: invert(1);
+  }
+  
+.card2:hover p {
+    color: white;
+  }
+  .card2:hover p2 {
+    color: white;
+    text-shadow: 1px 1px 10px #b2cbae;
+  }
+.card2:hover a {
+    color: #78aa8c;
+    background-color: white;
+  }
+  .card3{
+    position: absolute;
+    background-color:#78aa8c ;
+    display: inline-flex;
+    margin-top: 70%;
+    margin-left: 52%;
+    border-radius: 20px;
+    width: 20%;
+    height: 27%;
+    transition: 0.5s;
+    animation: float 1.8s infinite alternate;
+}
+.card3 h1{
+    position: absolute;
+    margin-left: 5%;
+    color: #fff;
+    text-shadow: 1px 1px 10px #ec790e;
+    font-family: 'Rubik Gemstones', cursive;
+    font-size: 190%;
+}
+.card3 p{
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 8%;
+    font-size: 130%;
+    color: #fff;
+    font-family: 'Mynerve', cursive;
+}
+.card3 p2{
+    position: absolute;
+    margin-top: 32%;
+    margin-left: 8%;
+    color: #fff;
+    text-shadow: 1px 1px 10px #ec790e;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:180%;
+}
+.card3 a{
+    position: absolute;
+    margin-top: 47%;
+    margin-left: 30%;
+    padding: 10px;
+    text-decoration: none;
+    border-radius:5px;
+    background-color:#ffffff;
+    width: 30%;
+    height: 10%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    text-align: center;
+    transition: 0.5s;
+    outline: none;
+    color: #da6709;
+}
+.imgspromo2{
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    margin-left: 50%;
+    margin-top: 5%;
+}
+.card3 p3{
+    display: none;
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 67%;
+    font-size: 70%;
+    color: #ffffff;
+    opacity: .7;
+    font-family: 'Mynerve', cursive;
+}
+.card3:hover {
+    background-color: #da6709;
+    color: white;
+    top: -70px;
+    box-shadow: 2px 20px 25px #dc2e685d;
+    border-color: #dc2e69;
+  }
+  
+  .card3:hover imgshamp {
+    filter: invert(1);
+  }
+  
+.card3:hover p {
+    color: white;
+  }
+  .card3:hover p2 {
+    color: white;
+    text-shadow: 1px 1px 10px #b2cbae;
+  }
+  
+.card3:hover a {
+    color: #78aa8c;
+    background-color: white;
+  }
+
+.card4{
+    position: absolute;
+    background-color:#78aa8c ;
+    display: inline-flex;
+    margin-top: 70%;
+    margin-left: 76%;
+    border-radius: 20px;
+    width: 20%;
+    height: 27%;
+    transition: 0.5s;
+    animation: float 1.8s infinite alternate;
+}
+.card4 h1{
+    position: absolute;
+    margin-left: 5%;
+    color: #fff;
+    text-shadow: 1px 1px 10px #ec790e;
+    font-family: 'Rubik Gemstones', cursive;
+    font-size: 190%;
+}
+.card4 p{
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 8%;
+    font-size: 130%;
+    color: #fff;
+    font-family: 'Mynerve', cursive;
+}
+.card4 p2{
+    position: absolute;
+    margin-top: 32%;
+    margin-left: 8%;
+    color: #fff;
+    text-shadow: 1px 1px 10px #ec790e;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:180%;
+}
+.card4 a{
+    position: absolute;
+    margin-top: 47%;
+    margin-left: 30%;
+    padding: 10px;
+    text-decoration: none;
+    border-radius:5px;
+    background-color:#ffffff;
+    width: 30%;
+    height: 10%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    text-align: center;
+    transition: 0.5s;
+    outline: none;
+    color: #da6709;
+}
+.imgspromo3{
+    position: absolute;
+    width: 50%;
+    height: auto;
+    margin-left: 50%;
+    margin-top: 10%;
+}
+.card4 p3{
+    display: none;
+    position: absolute;
+    margin-top: 53%;
+    margin-left: 68%;
+    font-size: 70%;
+    color: #ffffff;
+    opacity: .7;
+    font-family: 'Mynerve', cursive;
+}
+.card4:hover {
+    background-color: #da6709;
+    color: white;
+    top: -70px;
+    box-shadow: 2px 20px 25px #dc2e685d;
+    border-color: #dc2e69;
+  }
+  
+  .card4:hover imgshamp {
+    filter: invert(1);
+  }
+  
+.card4:hover p {
+    color: white;
+  }
+  .card4:hover p2 {
+    color: white;
+    text-shadow: 1px 1px 10px #b2cbae;
+  }
+  
+.card4:hover a {
+    color: #78aa8c;
+    background-color: white;
+  }
+  
+  .dicas{
+    position: absolute;
+    text-align: center;
+    margin-top: 90%;
+    margin-left: 0%;
+    letter-spacing: 0.3rem;
+    color:#fff;
+    background-color: #da6709;
+    opacity: .9;
+    box-shadow: 2px 5px 15px #76877d;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ;
+    height: 50px;
+    width: 100%;
+    font-family: 'Rakkas', cursive;
+}
+.comp{
+    position: absolute;
+    width: 12%;
+    height: 250%;
+    left: 10%;
+    margin: 5%;
+    border: solid;
+    border-color: #b2cbae;
+ 
+}
+.nutri{
+    position: absolute;
+    width: 12%;
+    height: 250%;
+    left: -3%;
+    margin: 18%;
+    border: solid;
+    border-color:#b2cbae;
+    box-shadow: 2px 5px 15px #76877d;
+}
+.compor{
+    position: absolute;
+    width: 12%;
+    height: 250%;
+    left: -15%;
+    margin: 30%;
+    border: solid;
+    border-color:#b2cbae;
+    box-shadow: 2px 5px 15px #76877d;
+}
+.petshop{
+    position: absolute;
+    width: 12%;
+    height: 250%;
+    margin: 5% ;
+    left: 55%;
+    border: solid;
+    border-color: #b2cbae;
+    box-shadow: 2px 5px 15px #76877d;
+}
+.brincar{
+    position: absolute;
+    width: 12%;
+    height: 250%;
+    margin-left: 0%;
+    left: 42%;
+    margin: 18%;
+    border: solid;
+    border-color: #b2cbae;
+    box-shadow: 2px 5px 15px #76877d;
+}
+.amor{
+    position: absolute;
+    width: 12%;
+    height: 250%;
+    margin-left: 0%;
+    left: 30%;
+    margin: 30%;
+    border: solid;
+    border-color:#b2cbae;
+    box-shadow: 2px 5px 15px #76877d;
+}
+.text1{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 16.5%;
+    color: #76877d;
+    font-size: 80%;
+    font-family: cursive;
+}
+.text2{
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 17%;
+    color: #76877d;
+    font-size: 80%;
+    font-family: cursive;
+}
+.text3{
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 16.5%;
+    color: #76877d;
+    font-size: 80%;
+    font-family: cursive;
+}
+.text4{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 63%;
+    color: #76877d;
+    font-size: 80%;
+    font-family: cursive;
+}
+.text5{
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 63%;
+    color: #76877d;
+    font-size: 80%;
+    font-family: cursive;
+}
+.text6{
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 64%;
+    color: #76877d;
+    font-size: 80%;
+    font-family: cursive;
+}
+.p p{
+    position: absolute;
+    margin-top: 98%;
+    margin-left: 28%;
+    display: inline-block;
+    font-family: 'Castoro Titling', cursive;
+    font-size: 90%;
+    letter-spacing: 0.06rem;
+    line-height: 180%;
+    opacity: .7;
+    text-transform: lowercase;
+
+}
+p:first-letter {
+    text-transform: uppercase;
+}
+.p p1{
+    position: absolute;
+    margin-top: 111%;
+    margin-left: 28%;
+    display: inline-block;
+    font-family: 'Castoro Titling', cursive;
+    font-size: 90%;
+    letter-spacing: 0.06rem;
+    line-height: 180%;
+    opacity: .7;
+    text-transform: lowercase;
+}
+ p1:first-letter {
+    text-transform: uppercase;
+}
+.p p2{
+    position: absolute;
+    margin-top: 122.5%;
+    margin-left: 28%;
+    display: inline-block;
+    font-family: 'Mynerve', cursive;
+    font-size: 90%;
+    letter-spacing: 0.06rem;
+    line-height: 180%;
+    opacity: .7;
+    text-transform: lowercase;
+}
+p2:first-letter {
+    text-transform: uppercase;
+}
+.p p3{
+    position: absolute;
+    margin-top: 98%;
+    margin-left: 73%;
+    display: inline-block;
+    font-family: 'Mynerve', cursive;
+    font-size: 90%;
+    letter-spacing: 0.06rem;
+    line-height: 180%;
+    opacity: .7;
+    text-transform: lowercase;
+}
+p3:first-letter {
+    text-transform: uppercase;
+}
+.p p4{
+    position: absolute;
+    margin-top: 111%;
+    margin-left: 73%;
+    display: inline-block;
+    font-family: 'Mynerve', cursive;
+    font-size: 80%;
+    letter-spacing: 0.06rem;
+    line-height: 180%;
+    opacity: .7;
+    text-transform: lowercase;
+}
+p4:first-letter {
+    text-transform: uppercase;
+}
+.p p5{
+    position: absolute;
+    margin-top: 123%;
+    margin-left: 73%;
+    display: inline-block;
+    font-family: 'Mynerve', cursive;
+    font-size: 90%;
+    letter-spacing: 0.06rem;
+    line-height: 180%;
+    opacity: .7;
+    text-transform: lowercase;
+}
+p5:first-letter {
+    text-transform: uppercase;
+}
+.raçapet{
+    position: absolute;
+    text-align: center;
+    margin-top: 130%;
+    margin-left: 0%;
+    letter-spacing: 0.3rem;
+    color:#fff;
+    opacity: .9;
+    background-color: #da6709;
+    box-shadow: 2px 5px 15px #76877d                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
+    font-family: 'Rakkas', cursive;
+    height: 50px;
+    width: 100%; 
+}
+.imagem{
+    margin-top:135% ;
+    margin-left: 82px;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    box-shadow: 2px 5px 15px #76877d;
+}
+.raçafoto .imagem{
+    -webkit-transition: all 0.7s ease;
+    transition:all 0.7s ease ;
+
+}
+.raçafoto .imagem:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    
+}
+.raças{
+    display: flex;
+}
+.raças h2{
+    margin-top:0% ;
+    margin-left: 81px;
+    color:#da6709;
+    font-size: 18px;
+    font-family: cursive;
+    display:inline-flex;  
+}
+.raças h3{
+    margin-top:0% ;
+    margin-left: 55px;
+    color:#da6709;
+    font-size: 18px;
+    font-family: cursive;
+    display:inline-flex;  
+}
+.raças h4{
+    margin-top:0% ;
+    margin-left: 105px;
+    color:#da6709;
+    font-size: 18px;
+    font-family: cursive;
+    display:inline-flex;  
+}
+.raças h5{
+    margin-top:0% ;
+    margin-left: 70px;
+    color:#da6709;
+    font-size: 18px;
+    font-family: cursive;
+    display:inline-flex;  
+}
+
+footer{
+    position: absolute;
+    margin-top: 3%;
+    width: 94.6%;
+    height: 20%;
+    color: #FFFFFF;
+    background-color:#b2cbae;
+    padding: 20px 50px;
+}
+footer .social-icon{
+    position: absolute;
+    display: flex;
+    left: 45%;
+    margin: 5px 0;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    letter-spacing: 3rem;
+    color: #ec790e;
+    transition: 0.5s;
+}
+footer .social-icon li{
+    list-style: none;
+}
+footer .social-icon:hover {
+    color: white;
+    margin-top: -20px;
+  }
+footer .menu{
+    position: absolute;
+    display: flex;
+    margin-top: 4%;
+    list-style: none;
+    margin-left: 35%;
+    gap: 50px;
+    font-size: 110%;
+    font-family: cursive;
+    opacity: 0.80;
+
+}
+footer .menu a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 1.5rem;
+    transform: 2ms ease-in;
+    position: relative;
+}
+footer p{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 42%;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.80;
+}
+.card-baixo{
+    width: 100%;
+    float: left;
+    display: inline-flex;
+    padding-bottom: 20px;
+    margin-top: 8%;
+    padding-top:10px;
+    border-top:1px dashed #fff;
+}
+.card-baixo h2{
+    width: 70%;
+    float: left;
+    font-size: 1.6em;
+    color: #da6709;
+}
+.topo{
+    position: absolute;
+    margin-left: 88%;
+    margin-top: 0%;
+    text-decoration: none;
+    color:#FFFFFF;
+}
+@media screen and (min-width:800px){
+    .card{
+        width: 25%;
+        float: left;
+    }
+    .card h3{
+        text-align: left;
+        margin-left: 31%;
+    }
+    .card ul li{
+        text-align: left;
+    }
+    .card-baixo h2{
+    width: 90%;
+    }
+}
+@keyframes float{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(15px);
+    }
+}
+@keyframes shadow{
+    0%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(.85,.85);
+    }
+}
+@media (max-width: 1800px) {
+    .list-menu{
+        margin-left: 60%;
+    }
+   
+    .example .text{
+        font-size: 150%;
+        margin-top: 40%;
+        
+
+    }.example .textm{
+        font-size: 150%;
+       margin-left: 46.5%;
+        margin-top: 40%;
+
+    }
+    @media (max-width: 1780px){
+        .mySlides {
+            
+            height: 520px;
+            
+        }
+        .example .textt{
+           margin-left: 35%;
+            margin-top: 39%;
+            
+    
+        }.example p{
+            margin-left: 31%;
+            margin-top: 42%;
+    
+        }
+        .adestraçao{
+            margin-left:28% ;
+        }
+        .example p2{
+            margin-left:20% ;
+        }
+        .hr7{
+            margin-left:35% ;
+        }
+        .iconeades{
+            margin-left:34.8% ;
+        }
+        .passeio{
+            margin-left:30% ;
+            
+        }
+        .example p3{
+            margin-left:21% ;
+        }
+        .hr8{
+            margin-left:35% ;
+        }
+        .iconepasseio{
+            margin-left:34.8% ;
+        }
+        .tosa{
+            margin-left:59.5% ;
+            
+        }
+        .example p4{
+            margin-left:59.5% ;
+        }
+        .hr9{
+            margin-left:56% ;
+        }
+        .iconebanho{
+            margin-left:55.7% ;
+        }
+        .veterinario{
+            margin-left:59.5% ;
+            
+        }
+        .example p5{
+            margin-left:59.5% ;
+        }
+        .hr10{
+            margin-left:56% ;
+        }
+        .iconevet{
+            margin-left:55.7% ;
+        }
+        .adestraçaofoto{
+            width: 200px;
+            height: auto;
+            margin-top: 45%;
+            margin-left: 1%;
+           }
+           .hr5{
+               width: 10%;
+               height: 20%;
+               border: none;
+               border-radius: 100%;
+               margin-left: 1%;
+               margin-top: 45%;
+               
+           }
+           .banhofoto{
+               width: 260px;
+               height: auto;
+               margin-left: 38%;
+               margin-top: 50%;
+           }
+           .hr6{
+               width: 10%;
+               height: 20%;
+               border: none;
+               border-radius: 100%;
+               margin-top:52% ;
+               
+           }
+           .vetefoto{
+               width: 250px;
+               height: auto;
+               margin-left: 80%;
+               margin-top: 54%;
+           }
+
+        .raçapet{
+            margin-top: 135%;
+        }
+        .imagem{
+            width: 80px;
+            height: 80px;
+            margin-left: 4.7%;
+            margin-top: 140%;
+        }
+        .raças h2{
+            margin-top:1% ;
+            margin-left: 78px;
+            font-size: 17px;
+        }
+        .raças h3{
+            margin-top:1% ;
+            margin-left: 47px;
+            font-size: 17px;
+        }
+        .raças h4{
+            margin-top:1%;
+            margin-left: 105px;
+            font-size: 17.3px;
+        }
+        .raças h5{
+            margin-top:1% ;
+            margin-left: 85px;
+            font-size: 17px;
+        }
+        footer{
+            width: 94.3%;
+        }
+    }
+    @media (max-width: 1594px) {
+    
+        .example .textt{
+            margin-left: 35%;
+            margin-top: 42%;
+         }.example p{
+             margin-left: 31%;
+             margin-top: 45%;
+     
+         }
+         .adestraçao{
+             margin-top: 48%;
+             margin-left:27% ;
+         }
+         .example p2{
+            margin-top: 49%;
+             margin-left:18% ;
+         }
+         .hr7{
+            margin-top: 48%;
+             margin-left:35% ;
+             width:3%;
+             height: 5%;
+         }
+         .iconeades{
+            margin-top: 49%;
+             margin-left:34.8% ;
+         }
+         .passeio{
+            margin-top: 55%;
+             margin-left:30% ;
+             
+         }
+         .example p3{
+            margin-top: 56%;
+             margin-left:19% ;
+         }
+         .hr8{
+            margin-top: 55%;
+             margin-left:35% ;
+             width:3%;
+             height: 5%;
+         }
+         .iconepasseio{
+            margin-top: 56%;
+             margin-left:34.8% ;
+
+         }
+         .tosa{
+            margin-top: 48%;
+             margin-left:59.5% ;
+             
+         }
+         .example p4{
+            margin-top: 49%;
+             margin-left:59.5% ;
+         }
+         .hr9{
+            margin-top: 48%;
+             margin-left:56% ;
+             width:3%;
+             height: 5%;
+         }
+         .iconebanho{
+             margin-top: 49%;
+             margin-left:55.7% ;
+         }
+         .veterinario{
+            margin-top: 55%;
+             margin-left:59.5% ;
+             
+         }
+         .example p5{
+            margin-top: 56%;
+             margin-left:59.5% ;
+         }
+         .hr10{
+            margin-top: 55%;
+             margin-left:56% ;
+             width:3%;
+             height: 5%;
+         }
+         .iconevet{
+             margin-top: 56%;
+             margin-left:55.7% ;
+         }
+         .adestraçaofoto{
+             width: 200px;
+             height: auto;
+             margin-top: 47%;
+             margin-left: 1%;
+            }
+            .hr5{
+                width: 10%;
+                height: 20%;
+                border: none;
+                border-radius: 100%;
+                margin-left: 1%;
+                margin-top: 47%;
+                
+            }
+            .banhofoto{
+                width: 260px;
+                height: auto;
+                margin-left: 38%;
+                margin-top: 50%;
+            }
+            .hr6{
+                width: 10%;
+                height: 20%;
+                border: none;
+                border-radius: 100%;
+                margin-top:52% ;
+                
+            }
+            .vetefoto{
+                width: 250px;
+                height: auto;
+                margin-left: 80%;
+                margin-top: 54%;
+            }
+            .hr3{
+                margin-top: 47%;
+                height: 6%;
+                width: 3%;
+            }
+            .hr4{
+                margin-top: 43%;
+                height: 8%;
+                width: 4%;
+            }
+       
+        .card1{
+            width: 20%;
+            height: 22%;
+        }
+        .card2{
+            width: 20%;
+            height: 22%;
+        }
+    
+        .card3{
+            width: 20%;
+            height: 22%;
+        }
+    
+        .card4{
+            width: 20%;
+            height: 22%;
+        }
+        .text1{
+            font-size: 70%;
+            margin-left: 9.5%;
+           }
+           .text2{
+            font-size: 70%;
+            margin-left: 10%;
+           }
+           .text3{
+            font-size: 70%;
+            margin-left: 9.5%;
+           }
+           .text4{
+            font-size: 70%;
+            margin-left: 55%;
+           }
+           .text5{
+            font-size: 70%;
+            margin-left: 55%;
+           }
+           .text6{
+            font-size: 70%;
+            margin-left: 57%;
+           }
+           .p p{
+            font-size: 70%;
+            margin-left: 22%;
+           }
+           .p p1{
+            font-size: 70%;
+            margin-left: 22%;
+           }
+           .p p2{
+            font-size: 70%;
+            margin-left: 22%;
+           }
+           .p p3{
+            margin-top: 98%;
+            font-size: 70%;
+            margin-left: 65%;
+           }
+           .p p4{
+            margin-top: 111%;
+            font-size: 70%;
+            margin-left: 65%;
+           }
+           .p p5{
+            margin-top: 124%;
+            font-size: 70%;
+            margin-left: 65%;
+           }
+           .comp{
+            width: 170px;
+            height: 185%;
+            margin-left: -1%;
+           }
+           .nutri{
+            width: 170px;
+            height: 185%;
+            margin-left: 12%;
+           }
+           .compor{
+            width: 170px;
+            height: 185%;
+            margin-left: 24%;
+           }
+           .petshop{
+            width: 170px;
+            height: 185%;
+            margin-left: -3%;
+           }
+           .brincar{
+            width: 170px;
+            height: 185%;
+            margin-left: 10%;
+           }
+           .amor{
+            width: 170px;
+            height: auto;
+            margin-left: 22%;
+           }
+        .raçapet{
+            margin-top: 135%;
+        }
+        .imagem{
+            width: 80px;
+            height: 80px;
+            margin-left: 4.2%;
+            margin-top: 140%;
+        }
+        .raças h2{
+            margin-top:1% ;
+            margin-left: 72px;
+            font-size: 15px;
+        }
+        .raças h3{
+            margin-top:1% ;
+            margin-left: 42px;
+            font-size: 15px;
+        }
+        .raças h4{
+            margin-top:1%;
+            margin-left: 100px;
+            font-size: 15.3px;
+        }
+        .raças h5{
+            margin-top:1% ;
+            margin-left: 78px;
+            font-size: 15px;
+        }
+        footer{
+            width: 93.6%;
+        }
+    
+    
+    }
+
+    @media (max-width: 1504px){
+        .list-menu{
+            margin-left: 50%;
+        }
+        .mySlides {
+        
+            height: 500px;
+            
+        }
+         .example p{
+            margin-top: 45%;
+         }
+         .hr7{
+            width:3%;
+            height: 5%;
+         }
+         .hr8{
+            width:3%;
+            height: 5%;
+         }
+         .hr9{
+            width:3%;
+            height: 5%;
+         }
+         .hr10{
+            width:3%;
+            height: 5%;
+         }
+         .adestraçaofoto{
+            width: 180px;
+            height: auto;
+            margin-top: 49%;
+            margin-left: 1%;
+           }
+           .hr5{
+               width: 10%;
+               height: 20%;
+               border: none;
+               border-radius: 100%;
+               margin-left: 1%;
+               margin-top: 48%;
+               
+           }
+           .banhofoto{
+               width: 260px;
+               height: auto;
+               margin-left: 38%;
+               margin-top: 50%;
+           }
+           .hr6{
+               width: 10%;
+               height: 18%;
+               border: none;
+               border-radius: 100%;
+               margin-top:51.5% ;
+               
+           }
+           .vetefoto{
+               width: 220px;
+               height: auto;
+               margin-left: 80%;
+               margin-top: 54%;
+           }
+        .card1{
+            width: 20%;
+            height: 20%;
+        }
+        .card2{
+            width: 20%;
+            height: 20%;
+        }
+        .card3{
+            width: 20%;
+            height: 20%;
+        }
+        .card4{
+            width: 20%;
+            height: 20%;
+        }
+        .text1{
+            font-size: 70%;
+            margin-left: 9.5%;
+           }
+           .text2{
+            font-size: 70%;
+            margin-left: 10%;
+           }
+           .text3{
+            font-size: 70%;
+            margin-left: 9.5%;
+           }
+           .text4{
+            font-size: 70%;
+            margin-left: 55%;
+           }
+           .text5{
+            font-size: 70%;
+            margin-left: 55%;
+           }
+           .text6{
+            font-size: 70%;
+            margin-left: 57%;
+           }
+           .p p{
+            font-size: 70%;
+            margin-left: 22%;
+           }
+           .p p1{
+            font-size: 70%;
+            margin-left: 22%;
+           }
+           .p p2{
+            font-size: 70%;
+            margin-left: 22%;
+           }
+           .p p3{
+            margin-top: 98%;
+            font-size: 70%;
+            margin-left: 65%;
+           }
+           .p p4{
+            margin-top: 111%;
+            font-size: 70%;
+            margin-left: 65%;
+           }
+           .p p5{
+            margin-top: 124%;
+            font-size: 70%;
+            margin-left: 65%;
+           }
+           .comp{
+            width: 170px;
+            height: 185%;
+            margin-left: -1%;
+           }
+           .nutri{
+            width: 170px;
+            height: 185%;
+            margin-left: 12%;
+           }
+           .compor{
+            width: 170px;
+            height: 185%;
+            margin-left: 24%;
+           }
+           .petshop{
+            width: 170px;
+            height: 185%;
+            margin-left: -3%;
+           }
+           .brincar{
+            width: 170px;
+            height: 185%;
+            margin-left: 10%;
+           }
+           .amor{
+            width: 170px;
+            height: auto;
+            margin-left: 22%;
+           }
+        .raçapet{
+            margin-top: 135%;
+        }
+        .imagem{
+            width: 80px;
+            height: 80px;
+            margin-left: 3.7%;
+            margin-top: 140%;
+        }
+        .raças h2{
+            margin-top:1% ;
+            margin-left: 60px;
+            font-size: 15px;
+        }
+        .raças h3{
+            margin-top:1% ;
+            margin-left: 40px;
+            font-size: 15px;
+        }
+        .raças h4{
+            margin-top:1%;
+            margin-left: 80px;
+            font-size: 15.3px;
+        }
+        .raças h5{
+            margin-top:1% ;
+            margin-left: 45px;
+            font-size: 15px;
+        }
+        footer{
+            width: 93%;
+    }
+   
+    }
+   
+
+}@media (max-width: 1440px) {
+    .list-menu{
+      margin-top: 5%;
+      margin-left: 13%;
+    }
+    .img{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    #whats{
+        margin-left: 25px;
+        margin-top: 6px;
+    }
+    .contato{
+        margin-left: 44px;
+        width: 210px;
+    }
+    .horario{
+        margin-left: 320px;
+    }
+    .nome{
+        margin-left: 40%;
+        width: 30%;
+    }
+    .iconeloja{
+        margin-left: 43%;
+    }
+    .mySlides {
+        height: 450px;
+        
+    }
+    #entrar{
+        width: 14%;
+    }
+    .example .textt{
+        margin-left:40% ;
+        font-size: 130%;
+    }
+    .hr7{
+        margin-left: 37%;
+        width: 3.5%;
+        height: 7%;
+    }
+    .iconeades{
+        margin-left: 36.7%;
+    }
+    .hr8{
+        margin-left: 37%;
+        width: 3.5%;
+        height: 7%;
+    }
+    .iconepasseio{
+        margin-left: 36.7%;
+    }
+    .hr9{
+        margin-left: 55%;
+        width: 3.5%;
+        height: 7%;
+    }
+    .iconebanho{
+        margin-left: 54.8%;
+    }
+    .hr10{
+        margin-left: 55%;
+        width: 3.5%;
+        height: 7%;
+    }
+    .iconevet{
+        margin-left: 54.8%;
+    }
+    .adestraçaofoto{
+     width: 180px;
+     height: auto;
+    }
+    .hr5{
+        width: 10%;
+        height: 20%;
+        border: none;
+        border-radius: 100%;
+        margin-left: 1%;
+        margin-top: 49%;
+        
+    }
+    .banhofoto{
+        width: 230px;
+        height: auto;
+        margin-left: 38%;
+        margin-top: 50%;
+    }
+    .hr6{
+        width: 10%;
+        height: 20%;
+        border: none;
+        border-radius: 100%;
+        
+    }
+    .vetefoto{
+        width: 230px;
+        height: auto;
+        margin-left: 78%;
+        margin-top: 53%;
+    }
+    .card1{
+        width: 20%;
+        height: 30%;
+    }
+    .card1 .imgs{
+        margin-top: 20px;
+        width: 60%;
+        height: auto;
+        margin-left: 145px;
+    }
+    .card1 h1{
+        font-size: 160%;
+    }
+    .card1 p{
+        margin-top: 70px;
+    }
+    .card1 p2{
+        margin-top: 95px;
+    }
+    .card1 p3{
+        display: none;
+    }
+    .card1 a{
+        margin-top: 140px;
+    }
+    .card2{
+        width: 20%;
+        height: 30%;
+    }
+    .card2 .imgspromo{
+        width: 55%;
+        margin-top: 55px;
+        height: auto;
+        margin-left: 125px;
+    }
+    .card2 h1{
+        font-size: 160%;
+    }
+    .card2 p{
+        margin-top: 65px;
+    }
+    .card2 p2{
+        margin-top: 95px;
+    }
+    .card2 p3{
+        display: none;
+    }
+    .card2 a{
+        margin-top: 140px;
+    }
+    .card3{
+        width: 20%;
+        height: 30%;
+    }
+    .card3 .imgspromo2{
+        width: 45%;
+        margin-top: 35px;
+        height: auto;
+        margin-left: 140px;
+    }
+    .card3 h1{
+        font-size: 160%;
+    }
+    .card3 p{
+        margin-top: 65px;
+    }
+    .card3 p2{
+        margin-top: 95px;
+    }
+    .card3 p3{
+        display: none;
+    }
+    .card3 a{
+        margin-top: 140px;
+    }
+    .card4{
+        width: 20%;
+        height: 30%;
+    }
+    .card4 .imgspromo3{
+        width: 45%;
+        margin-top: 65px;
+        height: auto;
+        margin-left: 145px;
+    }
+    .card4 h1{
+        font-size: 160%;
+    }
+    .card4 p{
+        margin-top: 65px;
+    }
+    .card4 p2{
+        margin-top: 95px;
+    }
+    .card4 p3{
+        display: none;
+    }
+    .card4 a{
+        margin-top: 140px;
+    }
+    .p p{
+        font-size: 75%;
+        margin-left: 24%;
+        margin-top: 99%;
+       }
+       .p p1{
+        font-size: 75%;
+        margin-left: 24%;
+        margin-top: 112%;
+       }
+       .p p2{
+        font-size: 75%;
+        margin-left: 24%;
+        margin-top: 124%;
+       }
+       .p p3{
+        margin-top: 99%;
+        font-size: 75%;
+        margin-left: 67%;
+       }
+       .p p4{
+        margin-top: 112%;
+        font-size: 75%;
+        margin-left: 67%;
+       }
+       .p p5{
+        margin-top: 124%;
+        font-size: 75%;
+        margin-left: 67%;
+       }
+       .promoçao{
+        height: 40px;
+       }
+   .dicas{
+    height: 40px;
+   }
+    .raçapet{
+        margin-top: 135%;
+        height: 40px;
+    }
+    .imagem{
+        width: 75px;
+        height: auto;
+        margin-left: 4.2%;
+        margin-top: 140%;
+    }
+    .raças h2{
+        margin-top:2% ;
+        margin-left: 61px;
+        font-size: 13px;
+    }
+    .raças h3{
+        margin-top:2% ;
+        margin-left: 45px;
+        font-size: 13px;
+    }
+    .raças h4{
+        margin-top:2%;
+        margin-left: 86px;
+        font-size: 13px;
+    }
+    .raças h5{
+        margin-top:2% ;
+        margin-left: 65px;
+        font-size: 13px;
+    }
+    
+    footer{
+        height: 25%;
+        width: 92.5%;
+    }
+
+}
+@media (max-width: 1315px) {
+
+    .mySlides {
+        height: 400px;
+        
+    }
+    .example .textt{
+      font-size: 130%;
+        margin-left: 37%;
+        margin-top: 42%;
+     }.example p{
+         margin-left: 29%;
+         margin-top: 45%;
+ 
+     }
+     .adestraçao{
+        font-size: 80%;
+        margin-top: 48%;
+        margin-left:27% ;
+    }
+    .example p2{
+        font-size: 60%;
+        margin-top: 49%;
+        margin-left:17% ;
+    }
+    .hr7{
+       margin-top: 48%;
+        margin-left:35% ;
+        width:2.8%;
+        height: 4.5%;
+    }
+    .iconeades{
+       margin-top: 49%;
+      margin-left:34.5% ;
+    }
+    .passeio{
+        font-size: 80%;
+        margin-top: 55%;
+        margin-left:29% ;
+        
+    }
+    .example p3{ 
+        font-size: 60%;
+        margin-top: 56%;
+        margin-left:18% ;
+    }
+    .hr8{
+       margin-top: 55%;
+        margin-left:35% ;
+        width:2.8%;
+        height: 4.5%;
+    }
+    .iconepasseio{
+       margin-top: 56%;
+        margin-left:34.5% ;
+
+    }
+    .tosa{
+        font-size: 80%;
+        margin-top: 48%;
+        margin-left:59.5% ;
+        
+    }
+    .example p4{
+        font-size: 60%;
+        margin-top: 49%;
+        margin-left:59.5% ;
+    }
+    .hr9{
+        margin-top: 48%;
+        margin-left:56% ;
+        width:2.8%;
+        height: 4.5%;
+    }
+    .iconebanho{
+        margin-top: 49%;
+        margin-left:55.5% ;
+    }
+    .veterinario{
+        font-size: 80%;
+        margin-top: 55%;
+        margin-left:59.5% ;
+        
+    }
+    .example p5{
+        font-size: 60%;
+        margin-top: 56%;
+        margin-left:59.5% ;
+    }
+    .hr10{
+       margin-top: 55%;
+        margin-left:56% ;
+        width:2.8%;
+        height: 4.5%;
+    }
+    .iconevet{
+        margin-top: 56%;
+        margin-left:55.5% ;
+    }
+    .adestraçaofoto{
+        width: 160px;
+        height: auto;
+        margin-top: 49%;
+        margin-left: 1%;
+       }
+       .hr5{
+           width: 10%;
+           height: 18%;
+           border: none;
+           border-radius: 100%;
+           margin-left: 1%;
+           margin-top: 48%;
+           
+       }
+       .banhofoto{
+           width: 260px;
+           height: auto;
+           margin-left: 35%;
+           margin-top: 50%;
+       }
+       .hr6{
+           width: 10%;
+           height: 17%;
+           border: none;
+           border-radius: 100%;
+           margin-top:52% ;
+           
+       }
+       .vetefoto{
+           width: 220px;
+           height: auto;
+           margin-left: 78%;
+           margin-top: 54%;
+       }
+       .hr3{
+           margin-top: 47%;
+           height: 6%;
+           width: 3%;
+       }
+       .hr4{
+           margin-top: 43%;
+           height: 8%;
+           width: 4%;
+       }
+    .raçapet{
+        margin-top: 135%;
+    }
+    .imagem{
+        width: 75px;
+        height: auto;
+        margin-left: 3.5%;
+        margin-top: 140%;
+    }
+    .raças h2{
+        margin-top:2% ;
+        margin-left: 51px;
+        font-size: 13px;
+    }
+    .raças h3{
+        margin-top:2% ;
+        margin-left: 38px;
+        font-size: 13px;
+    }
+    .raças h4{
+        margin-top:2%;
+        margin-left: 75px;
+        font-size: 13px;
+    }
+    .raças h5{
+        margin-top:2% ;
+        margin-left: 50px;
+        font-size: 13px;
+    }
+    
+    footer{
+        width: 92%;
+    }
+}
+
+@media (max-width: 1213px){
+    
+    .list-menu{
+        margin-left: 45%;
+        gap: 60px;
+        margin-top: 4%;
+    }
+    .mySlides {
+        width: 100%;
+        height: 380px;
+        margin-left: 0%;
+        
+    }
+    .example .textt{
+      font-size: 130%;
+        margin-left: 38%;
+        margin-top: 42%;
+     }.example p{
+         margin-left: 29%;
+         margin-top: 45%;
+ 
+     }
+     .adestraçao{
+        font-size: 80%;
+        margin-top: 49%;
+        margin-left:25% ;
+    }
+    .example p2{
+        font-size: 60%;
+        margin-top: 50%;
+        margin-left:15% ;
+    }
+    .hr7{
+       margin-top: 49%;
+        margin-left:35% ;
+        width:2.8%;
+        height: 4.5%;
+    }
+    .iconeades{
+       margin-top: 50%;
+      margin-left:34.5% ;
+    }
+    .passeio{
+        font-size: 80%;
+        margin-top: 56%;
+        margin-left:28% ;
+        
+    }
+    .example p3{ 
+        font-size: 60%;
+        margin-top: 57%;
+        margin-left:16% ;
+    }
+    .hr8{
+       margin-top: 56%;
+        margin-left:35% ;
+        width:2.8%;
+        height: 4.5%;
+    }
+    .iconepasseio{
+       margin-top: 57%;
+        margin-left:34% ;
+
+    }
+    .tosa{
+        font-size: 80%;
+        margin-top: 49%;
+        margin-left:59.5% ;
+        
+    }
+    .example p4{
+        font-size: 60%;
+        margin-top: 50%;
+        margin-left:59.5% ;
+    }
+    .hr9{
+        margin-top: 49%;
+        margin-left:56% ;
+        width:2.8%;
+        height: 4.5%;
+    }
+    .iconebanho{
+        margin-top: 50%;
+        margin-left:55.2% ;
+    }
+    .veterinario{
+        font-size: 80%;
+        margin-top: 56%;
+        margin-left:59.5% ;
+        
+    }
+    .example p5{
+        font-size: 60%;
+        margin-top: 57%;
+        margin-left:59.5% ;
+    }
+    .hr10{
+       margin-top: 56%;
+        margin-left:56% ;
+        width:2.8%;
+        height: 4.5%;
+    }
+    .iconevet{
+        margin-top: 57%;
+        margin-left:55.2% ;
+    }
+    .adestraçaofoto{
+        width: 140px;
+        height: auto;
+        margin-top: 49%;
+        margin-left: 1%;
+       }
+       .hr5{
+           width: 10%;
+           height: 16%;
+           border: none;
+           border-radius: 100%;
+           margin-left: 1%;
+           margin-top: 48%;
+           
+       }
+       .banhofoto{
+           width: 220px;
+           height: auto;
+           margin-left: 35%;
+           margin-top: 50%;
+       }
+       .hr6{
+           width: 10%;
+           height: 15%;
+           border: none;
+           border-radius: 100%;
+           margin-top:52% ;
+           
+       }
+       .vetefoto{
+           width: 200px;
+           height: auto;
+           margin-left: 78%;
+           margin-top: 54%;
+       }
+       .hr3{
+           margin-top: 47%;
+           height: 4%;
+           width: 2%;
+       }
+       .hr4{
+           margin-top: 43%;
+           height: 6%;
+           width: 3%;
+       }
+       .card1{
+        height:17%
+       }
+       .card1 h1{
+        font-size: 130%;
+       }
+       .card1 p{
+        font-size: 120%;
+        margin-left: 4%;
+       }
+       .card1 p2{
+        font-size: 120%;
+        margin-left: 4%;
+       }
+       .card2{
+        height:17%
+       }
+       .card2 h1{
+        font-size: 130%;
+       }
+       .card2 p{
+        font-size: 120%;
+        margin-left: 4%;
+       }
+       .card2 p2{
+        font-size: 120%;
+        margin-left: 4%;
+       }
+       .card3{
+        height:17%
+       }
+       .card3 h1{
+        font-size: 130%;
+       }
+       .card3 p{
+        font-size: 120%;
+        margin-left: 4%;
+       }
+       .card3 p2{
+        font-size: 120%;
+        margin-left: 4%;
+       }
+       .card4{
+        height:17%
+       }
+       .card4 h1{
+        font-size: 130%;
+       }
+       .card4 p{
+        font-size: 120%;
+        margin-left: 4%;
+       }
+       .card4 p2{
+        font-size: 120%;
+        margin-left: 4%;
+       }
+    .raçapet{
+        margin-top: 135%;
+    }
+    .imagem{
+        width: 75px;
+        height: auto;
+        margin-left: 3.2%;
+        margin-top: 140%;
+    }
+    .raças h2{
+        margin-top:2% ;
+        margin-left: 40px;
+        font-size: 13px;
+    }
+    .raças h3{
+        margin-top:2% ;
+        margin-left: 35px;
+        font-size: 13px;
+    }
+    .raças h4{
+        margin-top:2%;
+        margin-left: 60px;
+        font-size: 13px;
+    }
+    .raças h5{
+        margin-top:2% ;
+        margin-left: 45px;
+        font-size: 13px;
+    }
+    
+    footer{
+        width: 91.3%;
+        height: 14%;
+    }
+}
+@media (max-width: 1113px){
+     .mySlides{
+        height: 340px;
+     }
+    .example .textt{
+         font-size: 120%;
+          margin-left: 38%;
+          margin-top: 42%;
+       }.example p{
+           margin-left: 29%;
+           margin-top: 45%;
+   
+       }
+       .adestraçao{
+          font-size: 80%;
+          margin-top: 49%;
+          margin-left:25% ;
+      }
+      .example p2{
+          font-size: 60%;
+          margin-top: 50%;
+          margin-left:15% ;
+      }
+      .hr7{
+         margin-top: 49%;
+          margin-left:36% ;
+          width:3%;
+          height: 4%;
+      }
+      .iconeades{
+         margin-top: 50%;
+        margin-left:35% ;
+      }
+      .passeio{
+          font-size: 80%;
+          margin-top: 56%;
+          margin-left:28% ;
+          
+      }
+      .example p3{ 
+          font-size: 60%;
+          margin-top: 57%;
+          margin-left:16% ;
+      }
+      .hr8{
+         margin-top: 56%;
+          margin-left:36% ;
+          width:3%;
+          height: 4%;
+      }
+      .iconepasseio{
+         margin-top: 57%;
+          margin-left:35% ;
+  
+      }
+      .tosa{
+          font-size: 80%;
+          margin-top: 49%;
+          margin-left:59.5% ;
+          
+      }
+      .example p4{
+          font-size: 60%;
+          margin-top: 50%;
+          margin-left:59.5% ;
+      }
+      .hr9{
+          margin-top: 49%;
+          margin-left:56% ;
+          width:3%;
+          height: 4%;
+      }
+      .iconebanho{
+          margin-top: 50%;
+          margin-left:55.2% ;
+      }
+      .veterinario{
+          font-size: 80%;
+          margin-top: 56%;
+          margin-left:59.5% ;
+          
+      }
+      .example p5{
+          font-size: 60%;
+          margin-top: 57%;
+          margin-left:59.5% ;
+      }
+      .hr10{
+         margin-top: 56%;
+          margin-left:56% ;
+          width:3%;
+          height: 4%;
+      }
+      .iconevet{
+          margin-top: 57%;
+          margin-left:55.2% ;
+      }
+      .adestraçaofoto{
+          width: 140px;
+          height: auto;
+          margin-top: 49%;
+          margin-left: 1%;
+         }
+         .hr5{
+             width: 10%;
+             height: 16%;
+             border: none;
+             border-radius: 100%;
+             margin-left: 1%;
+             margin-top: 48%;
+             
+         }
+         .banhofoto{
+             width: 220px;
+             height: auto;
+             margin-left: 33%;
+             margin-top: 50%;
+         }
+         .hr6{
+             width: 10%;
+             height: 15%;
+             border: none;
+             border-radius: 100%;
+             margin-top:52% ;
+             
+         }
+         .vetefoto{
+             width: 200px;
+             height: auto;
+             margin-left: 78%;
+             margin-top: 54%;
+         }
+         .hr3{
+             margin-top: 47%;
+             height: 4%;
+             width: 2%;
+         }
+         .hr4{
+             margin-top: 43%;
+             height: 6%;
+             width: 3%;
+         }
+       .card1{
+        width: 20%;
+        height: 17%;
+       }
+       .card1 h1{
+        font-size: 135%;
+       }
+       .card1 a{
+       align-items: center;
+       }
+       .card2{
+        width: 20%;
+        height: 17%;
+       }
+       .card2 h1{
+        font-size: 135%;
+       }
+       .card3{
+        width: 20%;
+        height: 17%;
+       }
+       .card3 h1{
+        font-size: 135%;
+       }
+       .card4{
+        width: 20%;
+        height: 17%;
+       }
+       .card4 h1{
+        font-size: 135%;
+       }
+       .text1{
+        margin-left: 8%;
+       }
+       .text2{
+        margin-left: 9%;
+       }
+       .text3{
+        margin-left: 8%;
+       }
+       .text4{
+        margin-left: 53%;
+       }
+       .text5{
+        margin-left: 53%;
+       }
+       .text6{
+        margin-left: 55%;
+       }
+       .p p{
+        font-size: 70%;
+        margin-left: 22%;
+       }
+       .p p1{
+        font-size: 70%;
+        margin-left: 22%;
+       }
+       .p p2{
+        font-size: 70%;
+        margin-left: 22%;
+       }
+       .p p3{
+        margin-top: 108%;
+        font-size: 70%;
+        margin-left: 65%;
+       }
+       .p p4{
+        margin-top: 122%;
+        font-size: 70%;
+        margin-left: 65%;
+       }
+       .p p5{
+        margin-top: 134%;
+        font-size: 70%;
+        margin-left: 65%;
+       }
+       .comp{
+        width: 150px;
+        height: 165%;
+        margin-left: -3%;
+       }
+       .nutri{
+        width: 150px;
+        height: 165%;
+        margin-left: 10%;
+       }
+       .compor{
+        width: 150px;
+        height: 165%;
+        margin-left: 22%;
+       }
+       .petshop{
+        width: 150px;
+        height: 165%;
+        margin-left: -5%;
+       }
+       .brincar{
+        width: 150px;
+        height: 165%;
+        margin-left: 8%;
+       }
+       .amor{
+        width: 150px;
+        height: auto;
+        margin-left: 20%;
+       }
+    .raçapet{
+        margin-top: 145%;
+    }
+    .imagem{
+        width: 70px;
+        height: auto;
+        margin-left: 3%;
+        margin-top: 150%;
+    }
+    .raças h2{
+        margin-top:2% ;
+        margin-left: 30px;
+        font-size: 13px;
+    }
+    .raças h3{
+        margin-top:2% ;
+        margin-left: 30px;
+        font-size: 13px;
+    }
+    .raças h4{
+        margin-top:2%;
+        margin-left: 55px;
+        font-size: 13px;
+    }
+    .raças h5{
+        margin-top:2% ;
+        margin-left: 30px;
+        font-size: 13px;
+    }
+    
+    footer{
+        width: 90.9%;
+        height: 15%;
+    }
+}
+@media (max-width: 1035px){
+    .logo{
+        width: 10%;
+        height: 13%;
+        margin-left: 0%;
+        margin-top: 3%;
+    }
+    .list-menu{
+        font-size: 100%;
+        gap: 8px;
+        margin-left: 8%;
+    }
+    .itens-menu{
+        margin-top: 8%;
+        gap: 95px ;
+        margin-left: 66%;
+        font-size: 60%;
+    }
+    .mySlides{
+        width: 100%;
+        height: 300px;
+    }
+    .example .text{
+        margin-top: 48%;
+        margin-left: 18%;
+        font-size: 90%;
+        letter-spacing: 0.1rem;
+    }
+    .example .textm{
+        margin-top: 48%;
+        margin-left: 48%;
+        font-size: 90%;
+        letter-spacing: 0.1rem;
+    }
+    .example h2{
+        margin-top: 52%;
+        margin-left: 30%;
+        font-size: 75.5%;
+    }
+    .example p{
+        margin-top: 55%;
+        margin-left: 12%;
+        font-size: 55%;
+    }
+    .adestraçao{
+        margin-top: 60%;
+        margin-left: 15%;
+        font-size: 70%;
+        
+    }
+    .example p2{
+        margin-top: 62%;
+        margin-left: 15%;
+        font-size: 55%;
+    }
+    .veterinario{
+        margin-top: 60%;
+        font-size: 70%;
+    }
+    .example p3{
+        margin-top: 62%;
+        font-size: 55%;
+    }
+    .hr3{
+        margin-top: 46%;
+        margin-left: 90%;
+        width: 4%;
+        height: 5%;
+    }
+    .hr4{
+        margin-top: 50%;
+        margin-left: 93%;
+        height: 4%;
+        width: 3%;
+    }
+    .adestraçaofoto{
+        width: 140px;
+        height: auto;
+        margin-top: 50%;
+        margin-left: 0%;
+       }
+       .hr5{
+           width: 12%;
+           height: 15%;
+           border: none;
+           border-radius: 100%;
+           margin-left: 0%;
+           margin-top: 50%;
+           
+       }
+       .banhofoto{
+           width: 200px;
+           height: auto;
+           margin-left: 40%;
+           margin-top: 60%;
+       }
+       .hr6{
+           width: 12%;
+           height: 15%;
+           border: none;
+           border-radius: 100%;
+           margin-top: 59%;
+           margin-left: 87.5%;
+           
+       }
+     .vetefoto{
+         width: 180px;
+         height: auto;
+         margin-left: 81%;
+         margin-top: 63%;
+       }
+       .p p{
+        font-size: 70%;
+        margin-left: 24%;
+       }
+       .p p1{
+        font-size: 70%;
+        margin-left: 24%;
+
+       }
+       .p p2{
+        font-size: 70%;
+        margin-left: 24%;
+    
+       }
+       .p p3{
+        margin-top: 108%;
+        font-size: 70%;
+        margin-left: 68%;
+       }
+       .p p4{
+        margin-top: 122%;
+        font-size: 70%;
+        margin-left: 68%;
+       }
+       .p p5{
+        margin-top: 134%;
+        font-size: 70%;
+        margin-left: 68%;
+       }  
+       .imagem{
+        width: 60px;
+        height: auto;
+        margin-left: 3.2%;
+        margin-top: 152%;
+    }
+    .raças h2{
+        margin-top:2% ;
+        margin-left: 25px;
+        font-size: 12px;
+    }
+    .raças h3{
+        margin-top:2% ;
+        margin-left: 25px;
+        font-size: 12px;
+    }
+    .raças h4{
+        margin-top:2%;
+        margin-left: 48px;
+        font-size: 12px;
+    }
+    .raças h5{
+        margin-top:2% ;
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    
+    footer{
+        width: 90%;
+        height: 15%;
+    }
+    .img{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+}
+@media (max-width: 550px){
+  
+    .contato{
+        font-size: 50%;
+        margin-top: 1%;
+        margin-left: 8%;
+        width: 170px;
+    }
+    #whats{
+        margin-left: 13px;
+        margin-top: 4px;
+    }
+    .horario{
+        font-size: 50%;
+        margin-left: 50%;
+        margin-top: 1%;
+        width: 160px;
+    }
+    #relogio{
+        margin-left: 46%;
+        margin-top: 5px;
+    }
+    #user{
+        margin-left: 95%;
+        margin-top: 5px;
+    }
+    .conta button{
+        margin-left: 50%;
+        font-size: 50%;
+    }
+    .logo{
+        width: 23%;
+        height: auto;
+        margin-top: 3%;
+        margin-left: -3%;
+    }
+    .list-menu{
+        position: absolute;
+        font-family: cursive;
+        font-size: 100%;
+        margin-top: 14%;
+        margin-left: 18%;
+        gap: 30px;
+    }
+    .mySlides{
+        margin-top: 21.5%;
+        width: 100%;
+        height: 180px;
+    }
+    .example .textt{
+        margin-top: 61%;
+        margin-left: 30%;
+    }
+    .example p{
+        margin-top: 69%;
+        margin-left:18%;
+    }
+    .adestraçao{
+        margin-top: 76%;
+        margin-left: 10%;
+        font-size: 60%;
+    }
+    .example p2{
+        margin-top: 78%;
+        margin-left: 2%;
+        width: 150px;
+        font-size: 50%;
+    }
+    .passeio{
+        margin-left: 16%;
+        margin-top: 92%;
+        font-size: 60%;
+    }
+    .example p3{
+        margin-top: 94%;
+        margin-left: 2%;
+        width: 130px;
+        font-size: 50%;
+    }
+    .tosa{
+        margin-left: 70%;
+        font-size: 70%;
+        margin-top: 76%;
+        font-size: 60%;
+    }
+    .example p4{
+        margin-top: 78%;
+        margin-left: 70%;
+        width: 130px;
+        font-size: 50%;
+    }
+    .veterinario{
+        margin-left: 70%;
+        margin-top: 92%;
+        font-size: 60%;
+    }
+    .example p5{
+        margin-top: 94%;
+        margin-left: 70%;
+        width: 150px;
+        font-size: 50%;
+    }
+    .hr5{
+        width: 18%;
+        height: 12%;
+        margin-top: 94%;
+        margin-left: 0%; 
+        display: none;
+    }
+    .adestraçaofoto{
+        width: 110px;
+        height: auto;
+        margin-top: 95%;
+        display: none;
+    }
+    .banhofoto{
+        width: 190px;
+        height: auto;
+        margin-top: 83%;
+        margin-left: 23%;
+    }
+    .hr6{
+        width: 18%;
+        height: 12%;
+        margin-top: 96%;
+        margin-left: 81%; 
+        display: none;
+    }
+    .vetefoto{
+        width: 150px;
+        height: auto;
+        margin-top: 100%;
+        margin-left: 70%;
+        display: none;
+    }
+    .hr7{
+      margin-top: 76%;
+      width: 8%;
+      margin-left: 28%;
+    }
+    .hr8{
+        margin-top: 91%;
+        width: 8%;
+        margin-left: 28%;
+    }
+    .hr9{
+        margin-top: 76%;
+        width: 8%;
+        margin-left: 60%;
+    }
+    .hr10{
+        margin-top: 91%;
+        width: 8%;
+        margin-left: 60%;
+    }
+    .iconeades{
+    width: 5%;
+    margin-top: 77%;
+    margin-left: 26.5%;
+    }
+    .iconepasseio{
+        width: 5%;
+        margin-top: 92%;
+        margin-left: 26%;
+    }
+    .iconebanho{
+        width: 5%;
+        margin-top: 77%;
+        margin-left: 58.2%;
+    }
+    .iconevet{
+        width: 5%;
+        margin-top: 92%;
+        margin-left: 58.2%;
+    }
+    .promoçao{
+        margin-top: 110%;
+        height: 3%;
+        font-size: 100%;
+    }
+    
+    .cards{
+        margin-top: 50%;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .card1{
+        width: 45%;
+    }
+    .card2{
+        width:45%;
+        margin-left: 52%;
+    }
+    .card3{
+        width: 45%;
+        margin-left: 4%;
+        margin-top: 110%;
+    }
+    .card4{
+        width: 45%;
+        margin-left: 52%;
+        margin-top: 110%;
+    }
+    .dicas{
+        margin-top: 150%;
+        height: 3%;
+        font-size: 70%;
+    }
+    #imgdica{
+        width: 150px;
+        height: 90px;
+      
+    }
+ 
+    .nutri{
+        margin-top: 32%;
+    }
+    .compor{
+        margin-top: 55%;
+    }
+    .petshop{
+        margin-top: 80%;
+        margin-left: -48%;
+    }
+    .brincar{
+        margin-top: 105%;
+        margin-left: -36%;
+
+    }
+    .amor{
+        margin-top: 130%;
+        margin-left: -24%;
+    }
+   .raçapet{
+        margin-top: 500%;
+   } 
+   .text1{
+    margin-left: 42%;
+    margin-top: 5%;
+    font-size: 100%;
+   }
+   .p p{
+    margin-top: 163%;
+    margin-left: 42%;
+    
+    
+   }
+   .text2{
+    margin-left: 42%;
+    margin-top: 32%;
+    font-size: 100%;
+   }
+   .p p1{
+    margin-top: 190%;
+    margin-left: 42%;
+    
+    
+   }
+   .text3{
+    margin-left: 42%;
+    margin-top: 56%;
+    font-size: 100%;
+   }
+   .p p2{
+    margin-top: 213%;
+    margin-left: 42%;
+    width: 500px;
+   }
+   .text4{
+    margin-left: 42%;
+    margin-top: 80%;
+    font-size: 100%;
+   }
+   .p p3{
+    margin-top: 238%;
+    margin-left: 42%;
+    width: 500px;
+   }
+   .text5{
+    margin-left: 42%;
+    margin-top: 105%;
+    font-size: 100%;
+   }
+   .p p4{
+    margin-top: 263%;
+    margin-left: 42%;
+    width: 500px;
+   }
+   .text6{
+    margin-left: 42%;
+    margin-top: 130%;
+    font-size: 100%;
+   }
+   .p p5{
+    margin-top: 288%;
+    margin-left: 42%;
+    width: 500px;
+   }
+   .raçapet{
+    margin-top: 310%;
+    height: 3%;
+    font-size: 100%;
+    
+   }
+   .imagem{
+      width: 80px;
+      height: auto;
+      margin-left: 3.2%;
+      margin-top: 320%;
+    }
+    .raçafoto{
+        max-height:50px;
+    }
+    .img{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    #g{
+        margin-top: 10%;
+    }
+    .raças{
+        margin-top: 320%;
+        display: block;
+        line-height: 650%;
+    }
+    .raças h2{
+        margin-left: 25px;
+        font-size: 12px;
+    }
+    .raças h3{
+        margin-left: 25px;
+        font-size: 12px;
+    }
+    .raças h4{
+        margin-left: 54px;
+        font-size: 12px;
+    }
+    .raças h5{
+        margin-left: 30px;
+        font-size: 12px;
+    }
+    footer{
+        width: 79%;
+        height: 10%;
+        margin-top: 1%;
+    }
+    footer .social-icon{
+        left: 37%;
+        top: 5%;
+        font-size: 1.5rem;
+        letter-spacing: 1rem;
+    }
+    footer .social-icon:hover {
+        margin-top: -8px;
+      }
+    footer .menu{
+        margin-top: 5%;
+        margin-left: 0%;
+        font-size: 80%;
+        gap: 25px;
+    }
+    .card-baixo p{
+        margin-top: 2%;
+        margin-left: 30%;
+        font-size: 75%;
+    }
+    .card-baixo{
+        width: 120%;
+        margin-top: 15%;
+        margin-left: -10%;
+        
+    }
+    .card-baixo h2{
+        width: 70%;
+        font-size: 1em;
+        margin-left: -2%;
+    }
+    .topo{
+        margin-left: 85%;
+        margin-top: 0%;
+        font-size: 70%;
+    }
+  @media (max-width: 455px){
+ footer{
+        width: 50%;
+        height: 10%;
+        margin-top: 100%;
+    }
+   footer .social-icon{
+        left: 37%;
+        top: 5%;
+        font-size: 1.5rem;
+        letter-spacing: 1rem;
+    }
+}
+    footer .social-icon:hover {
+        margin-top: -8px;
+      }
+    footer .menu{
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 80%;
+    }
+    footer p{
+        margin-top: 8%;
+        margin-left: 30%;
+        font-size: 75%;
+    }
+    .card-baixo{
+        width: 120%;
+        margin-top: 15%;
+        margin-left: -10%;
+        
+    }
+    .card-baixo h2{
+        width: 70%;
+        font-size: 1em;
+        margin-left: -2%;
+    }
+    .topo{
+        margin-left: 85%;
+        margin-top: 0%;
+        font-size: 70%;
+    }
+    }
